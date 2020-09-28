@@ -1,0 +1,58 @@
+/* general styles */
+/* header nav */
+.header-nav{
+  height: 100px;
+  background-color: #6495ad;
+}
+.ico-nav,
+.list-nav{
+  width: 100px;
+  height: 20px;
+  background-color: black;
+  margin-top: 50px;
+}
+.list-nav{
+  margin-left: 70%;
+}
+/* header start */
+.header-start{
+  height: 680px;
+  background-color: #1abc9c;
+}
+.start-bootstrap{
+  width: 300px;
+  height: 500px;
+  background-color: orange;
+}
+/* main top */
+.main-top{
+  height: 850px;
+  background-color: #ffffff;
+}
+.title{
+  width: 330px;
+  height: 240px;
+  background-color: green;
+}
+.box{
+  width: 330px;
+  height: 240px;
+}
+.box1{
+  background-color: #ba4c63;
+}
+.box2{
+  background-color: #1fa4b6;
+}
+.box3{
+  background-color: #130f0f;
+}
+.box4{
+  background-color: #1d83c1;
+}
+.box5{
+  background-color: #1037b5;
+}
+.box6{
+  background-color: #ccb2a3;
+}
