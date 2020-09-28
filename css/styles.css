@@ -1,4 +1,5 @@
 /* general styles */
+
 /* header nav */
 .header-nav{
   height: 100px;
@@ -122,4 +123,18 @@
   height: 30px;
   background-color: white;
   margin: auto;
+}
+
+/* media query */
+@media screen and (max-width: 768px){
+  .ico-nav,
+  .list-nav{
+      margin: 10px auto;
+  }
+  .start-bootstrap{
+    margin: 30px auto;
+  }
+  .media-box{
+    margin: 0 auto;
+  }
 }
