@@ -1,19 +1,25 @@
 /* general styles */
-
+body {
+  padding-top: 70px;
+}
 /* header nav */
-.header-nav{
-  height: 100px;
-  background-color: #6495ad;
+.navbar{
+  background-color: #2c3e50;
 }
-.ico-nav,
-.list-nav{
-  width: 100px;
-  height: 20px;
-  background-color: black;
-  margin-top: 50px;
+.navbar-header .navbar-brand{
+  height: 80px;
+  padding: 0 15px;
+  font-size: 30px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: white;
 }
-.list-nav{
-  margin-left: 70%;
+.navbar-nav > li > a{
+  font-size: 20px;
+  padding: 0 15px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: white;
 }
 /* header start */
 .header-start{
@@ -136,5 +142,8 @@
   }
   .media-box{
     margin: 0 auto;
+  }
+  .main-top{
+    height: 1800px;
   }
 }
