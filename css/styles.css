@@ -9,6 +9,20 @@ h1{
   font-weight: bold;
   text-transform: uppercase;
   padding: 15px 0px;
+  text-align: center;
+}
+p{
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+.title{
+  padding: 80px 0px;
+  color: white;
+}
+.title2{
+  color: #2c3e50;
+  padding: 80px 0px;
 }
 .fa-star{
   position: relative;
@@ -25,6 +39,18 @@ h1{
   height: 3px;
   background-color: white;
   transform: translateY(-50%);
+  border-radius: 2px;
+}
+.star-main-top::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 10%;
+  left: 37%;
+  height: 3px;
+  background-color: #2c3e50;
+  transform: translateY(-50%);
+  border-radius: 2px;
 }
 /* header nav */
 .navbar{
@@ -62,42 +88,24 @@ h1{
 .header-start{
   background-color: #1abc9c;
 }
-.start-bootstrap{
-  padding: 80px 0px;
-  color: white;
-}
-.start-bootstrap img{
+.title img{
   height: 300px;
 }
-.start-bootstrap p{
-  font-size: 25px;
-  font-weight: 500;
-}
-.start-bootstrap h1,
-.start-bootstrap p{
-   text-align: center;
-}
 
-/* .start-bootstrap i::before{
+/* .pseudo{
   content: "";
-  position: absolute;
-  top: 50%;
   width: 10%;
-  right: 37%;
   height: 3px;
   background-color: white;
-  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 0%;
 } */
+
 /* main top */
 .main-top{
   height: 850px;
   background-color: #ffffff;
-}
-.title{
-  width: 330px;
-  height: 240px;
-  background-color: green;
-  margin: auto;
 }
 .box{
   width: 330px;
@@ -124,16 +132,10 @@ h1{
 
 /* main center */
 .main-center{
-  height: 610px;
   background-color: #1abc9c;
 }
 .title-main-center{
-  background-color: red;
   margin: auto;
-}
-.text-left,
-.text-right{
-  background-color: purple;
 }
 .text-left{
   margin-left: auto;
