@@ -1,75 +1,79 @@
 /* general styles */
+
 body {
   padding-top: 70px;
   font-family: 'Lato', sans-serif;
 }
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   padding: 15px 0px;
 }
+
 p{
   font-size: 25px;
   font-weight: 500;
   color: white;
 }
+
 img{
-  height: 300px;
+  height: 250px;
 }
+
 .col img{
   height: 250px;
 }
+
 .list-inline li a{
   color: white;
 }
+
 .title{
   padding: 80px 0px;
   color: white;
 }
+
 .title2{
   color: #2c3e50;
   padding: 80px 0px;
 }
+
 .fa-star{
-  display: block;
-  margin-bottom: 30px;
-  position: relative;
+  display: inline-block;
+  width: 18%;
+  vertical-align: middle;
 }
-.divider::after{
+
+.divider{
+  width: 350px;
+  max-width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.divider::after,
+.divider::before{
   content: "";
-  position: absolute;
-  top: 50%;
-  width: 10%;
-  left: 37%;
+  display: inline-block;
+  width: 40%;
   height: 3px;
   background-color: white;
   transform: translateY(-50%);
   border-radius: 2px;
 }
-/* .fa-star::after{
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 10%;
-  left: 37%;
-  height: 3px;
-  background-color: white;
-  transform: translateY(-50%);
-  border-radius: 2px;
-}
-.star-main-top::after{
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 10%;
-  left: 37%;
-  height: 3px;
+
+.divider-blue::after,
+.divider-blue::before{
   background-color: #2c3e50;
-  transform: translateY(-50%);
-  border-radius: 2px;
-} */
+}
+
+.divider .divider-blue .fa-star{
+  color: #2c3e50;
+}
+
 /* header nav */
 .navbar{
   background-color: #2c3e50;
@@ -83,7 +87,7 @@ img{
   font-size: 25px;
   line-height: 80px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   color: white;
   transition: color .1s;
 }
