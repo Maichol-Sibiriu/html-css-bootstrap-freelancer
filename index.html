@@ -44,10 +44,12 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="title">
-                <img class="center-block" src="./img/avatar.svg" alt="">
+              <div class="title text-center">
+                <img src="./img/avatar.svg" alt="">
                 <h1>start bootstrap</h1>
-                <i class="fas fa-star fa-2x"></i>
+                <div class="divider">
+                  <i class="fas fa-star fa-2x"></i>
+                </div>
                 <p>Graphic Artist - Web Designer - Illustrator</p>
               </div>
             </div>
@@ -61,7 +63,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="title2">
+              <div class="title2 text-center">
                 <h1>Portfolio</h1>
                 <i class="fas fa-star fa-2x star-main-top"></i>
               </div>
@@ -70,36 +72,23 @@
           <!-- griglia box main top -->
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="box1 box media-box">
-                  box1
+                <div class="col img-responsive">
+                  <img src="./img/cabin.png" alt="">
+
+                  <img src="./img/cake.png" alt="">
+
+                  <img src="./img/circus.png" alt="">
+
+                  <img src="./img/game.png" alt="">
+
+                  <img src="./img/safe.png" alt="">
+
+                  <img src="./img/submarine.png" alt="">
+
                 </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="box2 box media-box">
-                  box2
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="box3 box media-box">
-                  box3
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="box4 box media-box">
-                 box4
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="box5 box media-box">
-                  box5
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="box6 box media-box">
-                  box6
-                </div>
-              </div>
+
+
+
             </div>
           </div>
         </div>
@@ -109,7 +98,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="title">
+              <div class="title text-center">
                <h1>About</h1>
                <i class="fas fa-star fa-2x"></i>
               </div>
@@ -144,21 +133,32 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="title2">
+              <div class="title2 text-center">
                <h1>Contact Me</h1>
                <i class="fas fa-star fa-2x star-main-top"></i>
               </div>
             </div>
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="list-main-bottom">
-                <ul>
-                  <li><!-- pseudo --></li>
-                  <li><!-- pseudo --></li>
-                  <li><!-- pseudo --></li>
-                  <li><!-- pseudo --></li>
-                </ul>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
               </div>
-            </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email address">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Message">
+              </div>
+
+
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
             <div class="col-lg-8 col-lg-offset-2">
               <div class="button btn-main-bottom">
                 <a href="#"></a>
@@ -170,40 +170,44 @@
     </main>
     <footer>
       <!-- info footer -->
-      <section class="info-footer">
+      <section class="info-footer text-center">
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <div class="location box">
-               <h2></h2>
-               <p></p>
+              <div class="location box title">
+               <h2>Location</h2>
+               <p>2215 John Daniel Drive Clark, MO 65243 </p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="web box">
-               <h2></h2>
-               <a href="#"><i></i></a>
-               <a href="#"><i></i></a>
-               <a href="#"><i></i></a>
-               <a href="#"><i></i></a>
+              <div class="web box title">
+               <h2>Around the Web</h2>
+               <div class="">
+                 <ul class="list-inline">
+                   <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                   <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                   <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                 </ul>
+               </div>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="freelancer box">
-               <h2></h2>
-               <p></p>
+              <div class="freelancer box title">
+               <h2>About Freelancer</h2>
+               <p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap . </p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- copyright -->
-      <section class="copyright">
+      <section class="copyright text-center">
        <div class="container">
          <div class="row">
            <div class="col">
              <div class="text-copyright">
-               <h3></h3>
+               <h4>Copyright © Your Website 2020</h4>
              </div>
            </div>
          </div>
